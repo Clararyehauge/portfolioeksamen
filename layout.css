@@ -1,0 +1,8 @@
+/*OM MIG*/
+@media (min-width: 800px) {
+  .baggrundsfarveboks2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+  }
+}
