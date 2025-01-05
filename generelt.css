@@ -43,11 +43,20 @@ h2 {
 
 h3 {
   font-family: "Inter", serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+  color: #c71d1e;
 }
 
 h4 {
   font-family: "Inter", serif;
-  font-size: 13px;
+  font-size: 23px;
+  letter-spacing: 2px;
+  padding-bottom: 2rem;
+  color: #c71d1e;
+  font-weight: 300;
 }
 
 p {
@@ -150,7 +159,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #a43737;
+    background-color: #fff6e1;
     position: absolute;
     top: 94px;
     left: 0;
@@ -172,8 +181,104 @@ nav {
   }
 }
 
+/*HEADER SLUT*/
+
 body {
   background-color: #fff6e1;
+}
+
+/*INDEX*/
+
+/*PORTFOLIO*/
+.mineprojekter {
+  padding-top: 6rem;
+}
+
+.knap2_1,
+.knap2_2,
+.knap2_3,
+.knap2_4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-family: "Inter", serif;
+}
+
+.temaoverskrift {
+  display: grid;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.knap2_5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  font-family: "Inter", serif;
+  font-size: 12px;
+}
+
+@media (min-width: 800px) {
+  .tekststykke2_1 {
+    padding-left: 25px;
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .løsning {
+    max-width: 30rem;
+    padding-top: 30px;
+  }
+}
+
+.layoutdiagram2_1 {
+  padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .processen {
+    max-width: 30rem;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .refleksion {
+    max-width: 30rem;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke2_2 {
+    max-width: 30rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke2_3 {
+    max-width: 50rem;
+    display: grid;
+    justify-content: center;
+  }
 }
 
 /*OM MIG*/
@@ -195,6 +300,12 @@ body {
   max-width: 50rem;
 }
 
-.tekst3_2 {
+.tekst3_3 {
   max-width: 50rem;
+}
+
+/*GENERELT CSS*/
+.centerettekst {
+  display: grid;
+  justify-content: center;
 }

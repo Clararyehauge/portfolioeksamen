@@ -1,3 +1,23 @@
+/*INDEX*/
+
+/*PORTFLIO*/
+@media (min-width: 1100px) {
+  .grid_knapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+}
+
 /*OM MIG*/
 @media (min-width: 800px) {
   .baggrundsfarveboks2 {
