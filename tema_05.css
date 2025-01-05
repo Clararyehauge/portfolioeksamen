@@ -1,0 +1,118 @@
+@media (min-width: 800px) {
+  .tekststykke5_1 {
+    padding-left: 25px;
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke5_2 {
+    max-width: 29rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke5_3 {
+    max-width: 49rem;
+    display: grid;
+    justify-content: center;
+  }
+}
+
+.knap_sehjemmeside_tema_05 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  font-family: "Inter", serif;
+  font-size: 12px;
+}
+
+.knap_prototype_tema_05 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  font-family: "Inter", serif;
+  font-size: 12px;
+}
+
+@media (min-width: 800px) {
+  .tekststykke5_4 {
+    padding-left: 25px;
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke5_5 {
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke5_6 {
+    max-width: 46rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+}
+
+.knap_sehjemmeside_tema_05_02 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  font-family: "Inter", serif;
+  font-size: 12px;
+}
+
+.knap_prototype_tema_05_02 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  font-family: "Inter", serif;
+  font-size: 12px;
+}
+
+.logoogfaviconstørrelse {
+  width: 76%;
+}
+
+.lottiefilestørrelse {
+  width: 76%;
+}
+
+.uddragstyletylestørrelse {
+  width: 58%;
+}
+
+.logodesignstørrelse {
+  width: 73%;
+}

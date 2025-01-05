@@ -18,11 +18,128 @@
   }
 }
 
+/*3 billeder*/
+@media (min-width: 600px) {
+  .grid1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3rem;
+    gap: 10px;
+  }
+}
+
+/*2 billeder*/
+@media (min-width: 600px) {
+  .grid2_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 3rem;
+  }
+  .grid2_1 img {
+    height: 80%;
+  }
+}
+
 /*OM MIG*/
 @media (min-width: 800px) {
   .baggrundsfarveboks2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2rem;
+  }
+}
+
+/*Jeg har fået hjælp af chatGPT til denne den*/
+/*SKALA FOR 85 DESKTOP*/
+@media (min-width: 800px) {
+  .kompetencer_loadingbar {
+    padding-top: 1px;
+  }
+  .loading_container85 {
+    width: 100%;
+    max-width: 720px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border: 0.5px solid black;
+  }
+
+  .loading_bar85 {
+    width: 0;
+    height: 15px;
+    background-color: #660404;
+    transition: width 0.3s ease;
+  }
+
+  .percentage85 {
+    font-family: "Inter", serif;
+    position: absolute;
+    font-size: 14px;
+    color: #c71d1e;
+    right: 336px;
+  }
+}
+
+/*SKALA FOR 75 DESKTOP*/
+@media (min-width: 800px) {
+  .kompetencer_loadingbar {
+    padding-top: 1px;
+  }
+  .loading_container75 {
+    width: 100%;
+    max-width: 720px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border: 0.5px solid black;
+  }
+
+  .loading_bar75 {
+    width: 0;
+    height: 15px;
+    background-color: #660404;
+    transition: width 0.3s ease;
+  }
+
+  .percentage75 {
+    font-family: "Inter", serif;
+    position: absolute;
+    font-size: 14px;
+    color: #c71d1e;
+    right: 336px;
+  }
+}
+
+/*SKALA FOR 50 DESKTOP*/
+@media (min-width: 800px) {
+  .kompetencer_loadingbar {
+    padding-top: 1px;
+  }
+  .loading_container50 {
+    width: 100%;
+    max-width: 720px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border: 0.5px solid black;
+  }
+
+  .loading_bar50 {
+    width: 0;
+    height: 15px;
+    background-color: #660404;
+    transition: width 0.3s ease;
+  }
+
+  .percentage50 {
+    font-family: "Inter", serif;
+    position: absolute;
+    font-size: 14px;
+    color: #c71d1e;
+    right: 336px;
   }
 }

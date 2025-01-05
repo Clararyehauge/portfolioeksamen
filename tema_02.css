@@ -1,0 +1,36 @@
+@media (min-width: 800px) {
+  .tekststykke2_1 {
+    padding-left: 25px;
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke2_2 {
+    max-width: 30rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .tekststykke2_3 {
+    max-width: 51rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+}
+
+.knap_sehjemmeside_tema_02 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff6e1;
+  color: #c71d1e;
+  border: 2px solid #c71d1e;
+  text-decoration: none;
+  width: 200px;
+  padding: 15px;
+  margin-bottom: 35px;
+  font-family: "Inter", serif;
+  font-size: 12px;
+}
