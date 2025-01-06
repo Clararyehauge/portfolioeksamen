@@ -13,13 +13,12 @@ function menuClick() {
   nav.classList.remove("active");
 }
 
-// JavaScript for at håndtere klik og aktiv tilstand
-document.querySelectorAll(".menu-link").forEach((item) => {
-  item.addEventListener("click", function () {
-    // Fjern 'active' klassen fra alle links
-    document.querySelectorAll(".menu-link").forEach((link) => link.classList.remove("active"));
+/*Har fået hjælp af chatGPT til denne*/
+const menuLinks = document.querySelectorAll(".menu a");
 
-    // Tilføj 'active' klassen til det klikede link
-    item.classList.add("active");
-  });
+menuLinks.forEach((link) => {
+  // Tjek om linket matcher den nuværende URL
+  if (window.location.pathname.endsWith(link.getAttribute("href"))) {
+    link.classList.add("active"); // Brug 'classList' med stort L
+  }
 });
