@@ -1,3 +1,5 @@
+//Har fået hjælp af chatGPT til denne del
+
 // Vælg alle loading bars og procent tekst elementer
 const loadingBars85 = document.querySelectorAll(".loading_bar85");
 const percentageTexts85 = document.querySelectorAll(".percentage85");
@@ -11,18 +13,19 @@ const percentageTexts50 = document.querySelectorAll(".percentage50");
 // Funktion til at animere en bar
 function animateLoadingBar(loadingBars, percentageTexts, targetWidth) {
   loadingBars.forEach((loadingBar, index) => {
-    let width = 0; // Start bredde
-    const percentageText = percentageTexts[index]; // Hent procent tekst for den aktuelle loading bar
+    let width = 0;
+    const percentageText = percentageTexts[index];
 
+    //Står når målet er nået, eller tilføj med en - opdater løbende barens bredde og procent
     let interval = setInterval(() => {
       if (width >= targetWidth) {
-        clearInterval(interval); // Stop når målet er nået
+        clearInterval(interval);
       } else {
-        width++; // Øg bredden med 1% ad gangen
-        loadingBar.style.width = width + "%"; // Opdater loading barens bredde
-        percentageText.textContent = width + "%"; // Opdater procent teksten
+        width++;
+        loadingBar.style.width = width + "%";
+        percentageText.textContent = width + "%";
       }
-    }, 50); // Opdater hver 50 millisekund for at få en jævn effekt
+    }, 50); // Opdaterings tidspunkt - hvert 0,5 milisekund
   });
 }
 
@@ -33,12 +36,10 @@ function startAnimation() {
   animateLoadingBar(loadingBars50, percentageTexts50, 50);
 }
 
-// Start animationen første gang
 startAnimation();
 
-// Start animationen forfra efter 15 sekunder
+// Start animationen forfra efter 15 sekunder, alle barer starter fra 0
 setInterval(() => {
-  // Reset alle loading bars til 0% før de starter forfra
   loadingBars85.forEach((bar) => (bar.style.width = "0%"));
   percentageTexts85.forEach((text) => (text.textContent = "0%"));
 
@@ -48,6 +49,6 @@ setInterval(() => {
   loadingBars50.forEach((bar) => (bar.style.width = "0%"));
   percentageTexts50.forEach((text) => (text.textContent = "0%"));
 
-  // Start animationen forfra
+  // Start animationen forfra hver 13 sekund
   startAnimation();
-}, 13000); // Kør dette hvert 15. sekund (15000 ms)
+}, 13000);

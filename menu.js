@@ -17,8 +17,7 @@ function menuClick() {
 const menuLinks = document.querySelectorAll(".menu a");
 
 menuLinks.forEach((link) => {
-  // Tjek om linket matcher den nuværende URL
   if (window.location.pathname.endsWith(link.getAttribute("href"))) {
-    link.classList.add("active"); // Brug 'classList' med stort L
+    link.classList.add("active");
   }
 });
