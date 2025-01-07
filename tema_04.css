@@ -11,12 +11,18 @@
   margin-bottom: 35px;
   font-family: "Inter", serif;
   font-size: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease;
+}
+
+.knap_sehjemmeside_tema_04:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 800px) {
   .tekststykke4_1 {
     padding-left: 25px;
-    max-width: 33rem;
+    max-width: 34rem;
   }
 }
 

@@ -33,4 +33,10 @@
   margin-bottom: 35px;
   font-family: "Inter", serif;
   font-size: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease;
+}
+
+.knap_sehjemmeside_tema_02:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
